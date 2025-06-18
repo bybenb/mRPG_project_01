@@ -7,4 +7,4 @@ buy me a **[coffee][meu_linktr]**
 
 
 
-[meu_linktr]: https://linktr.ee/
+[meu_linktr]: https://coff.ee/bybenb

@@ -1,5 +1,6 @@
 import  tkinter as tekinte
-from tkinter import messagebox
+from playsound import playsound
+import threading  
 
 
 # Eu odeio o som das messageBoxes
@@ -20,6 +21,13 @@ def messajebox(titulo, sms):
     cartaz.transient()
     cartaz.grab_set()
 
-    
+
+
+
+
+# para tocar som sem travar a GUI
+def toqueo_som(file):
+    threading.Thread(target=lambda: playsound(file)).start()
+
     
 # Hvwh surjudpd irl ihlwr shor 'Ehqb Uhlv LL'
